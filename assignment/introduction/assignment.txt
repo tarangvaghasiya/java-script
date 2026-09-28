@@ -1,0 +1,118 @@
+Q1. What does it mean when we say JavaScript is a high-level programming language?
+
+Answer:
+JavaScript is a high-level language because it is easy for humans to read and write.
+We do not need to write complex machine-level code.
+
+Q2. Is JavaScript a compiled language or an interpreted language?
+
+Answer:
+JavaScript is mainly called an interpreted language because the code is executed by the JavaScript engine.
+
+Modern JavaScript engines also use JIT compilation to make the code faster.
+
+Q3. Name the JavaScript engines used by the following browsers.
+
+Answer:
+
+Google Chrome → V8
+Mozilla Firefox → SpiderMonkey
+Microsoft Edge → V8
+Safari → JavaScriptCore
+Opera → V8
+
+Q4. What is Dynamic Typing in JavaScript?
+
+Answer:
+Dynamic typing means a variable can store different types of values.
+
+Example:
+
+let x = 10;
+x = "Hello";
+
+Here, x first stores a number and then stores a string.
+
+Q5. Explain ECMAScript. What is its relation with JavaScript?
+
+Answer:
+ECMAScript is a standard or set of rules for JavaScript.
+
+JavaScript follows these rules.
+
+In simple words:
+ECMAScript = Rules
+JavaScript = Language
+
+Q6. Static Website vs Dynamic Website
+
+Static Website:
+A website where the content mostly stays the same.
+
+Example: Personal portfolio website.
+
+Dynamic Website:
+A website where the content can change according to the user or data.
+
+Example: Instagram.
+
+Q7. Any two features of JavaScript
+
+1. Interactive:
+JavaScript makes a webpage respond to user actions like clicking a button.
+
+2. Fast:
+JavaScript runs quickly in the browser.
+
+Q8. Four areas where JavaScript is used
+Server: Node.js
+Mobile Apps: React Native
+Desktop Apps: Electron
+Games: Phaser
+
+Q9. Internal JavaScript vs External JavaScript
+
+Internal JavaScript:
+JavaScript is written inside the HTML file using <script>.
+
+<script>
+  alert("Hello");
+</script>
+
+External JavaScript:
+JavaScript is written in a separate .js file.
+
+<script src="script.js"></script>
+
+In short:
+Internal → JS is inside HTML.
+External → JS is in a separate file.
+
+Q10. Predict the output
+
+Output:
+
+number
+string
+boolean
+
+Explanation:
+25 is a number, JavaScript is a string, and false is a boolean.
+typeof tells us the type of the value.
+
+Q11. Alert Box
+
+Answer:
+We can create a button and use JavaScript to show an alert message when the button is clicked.
+
+Message displayed:
+"Welcome to JavaScript!"
+
+Q12. Event-Driven Programming
+
+Answer:
+Event-driven programming means JavaScript performs an action when an event happens.
+
+Here, when the user clicks the button with the id "myBtn", the paragraph with the id "demo" changes its text to:
+
+"Button was clicked!"
